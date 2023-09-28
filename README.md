@@ -8,7 +8,6 @@ Certifique-se de ter o seguinte instalado em seu sistema:
 
 -   [Node.js](https://nodejs.org/)
 -   [NPM](https://www.npmjs.com/) (gerenciador de pacotes do Node.js)
--   [PostgreSQL](https://www.postgresql.org/) (ou outro banco de dados de sua escolha)
 
 ## Instalação
 
