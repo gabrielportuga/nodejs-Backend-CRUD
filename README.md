@@ -1,7 +1,9 @@
 # Nodejs-Backend-CRUD
 
 Este é um projeto Node.js que utiliza o Sequelize e o Sequelize CLI para criar e gerenciar um banco de dados. Ele inclui um Swagger Page para documentação da API.
+
 O sistema tem um mecanismo de login usando JWT, com um entrypoint que recebe { "login":"letscode", "senha":"lets@123"} e gera um token.
+
 No swagger o endpoint /login já foi inicializado com os dados de login e senha para facilitar os testes. 
 ## Pré-requisitos
 
