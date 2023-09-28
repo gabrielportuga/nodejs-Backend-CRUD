@@ -84,8 +84,3 @@ http://localhost:3000/swagger
 
 Sinta-se à vontade para contribuir com este projeto. Abra uma issue para discutir novos recursos ou problemas encontrados.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
----
