@@ -14,13 +14,13 @@ Certifique-se de ter o seguinte instalado em seu sistema:
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-projeto.git
+    git clone https://github.com/gabrielportuga/nodejs-Backend-CRUD.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd nome-do-projeto
+    cd nodejs-Backend-CRUD
     ```
 
 3. Instale as dependências do projeto:
@@ -31,11 +31,17 @@ Certifique-se de ter o seguinte instalado em seu sistema:
 
 4. Configure o banco de dados no arquivo `config/config.json`.
 
-5. Execute as migrações para criar as tabelas no banco de dados:
+5. Execute o comando abaixo para criar as tabelas no banco de dados:
 
     ```bash
-    npx sequelize db:migrate
+    npx sequelize-cli db:migrate
     ```
+    
+6. Execute o comando abaixo para iniciar o banco de dados incluindo alguns dados:
+
+    ```bash
+    npx sequelize-cli db:seed:all 
+    ```    
 
 ## Uso
 
@@ -45,14 +51,14 @@ Para iniciar o servidor da aplicação, execute o seguinte comando:
 npm start
 ```
 
-Isso iniciará o servidor na porta padrão 3000. Você pode acessar a API em `http://localhost:3000`.
+Isso iniciará o servidor na porta padrão 5000. Você pode acessar a API em `http://localhost:5000`.
 
 ## Documentação da API (Swagger)
 
 A documentação da API está disponível em Português e pode ser acessada na seguinte URL:
 
 ```
-http://localhost:3000/swagger
+http://localhost:5000/swagger/
 ```
 
 ## Comandos Úteis
@@ -77,9 +83,8 @@ http://localhost:3000/swagger
 
 -   Gerar a documentação Swagger:
 
-    Certifique-se de que o Swagger está configurado corretamente no seu projeto.
+    ```bash
+    npm run swagger-autogen
+    ```
 
-## Contribuindo
-
-Sinta-se à vontade para contribuir com este projeto. Abra uma issue para discutir novos recursos ou problemas encontrados.
 
